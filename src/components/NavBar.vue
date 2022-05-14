@@ -16,7 +16,7 @@
                 <a class="link" href="#">Firmas</a>
             </li>
             <li class="parent">
-                <a class="link" href="#">Donaciones</a>
+                <a class="Donaciones" href="#">Donaciones</a>
             </li>
         </ul>
     </nav>
@@ -64,9 +64,18 @@
         text-decoration: none;
         transition: all 0.3s ease-in-out;
         color: black;
+        padding-top: 10px;
+      }
+      .Donaciones{
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        color: black;
 
-        &:hover {
-          color: #ea4f4c;
-        }
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10%;
       }
 </style>
