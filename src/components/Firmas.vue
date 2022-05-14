@@ -287,5 +287,11 @@
 </template>
 
 <style>
-
+.Title{
+    color: rgb(210, 145, 33);
+    text-align: center;
+}
+.Subtitle{
+    text-align: center;
+}
 </style>
