@@ -5,6 +5,7 @@ import Firmas from './components/Firmas.vue'
 </script>
 
 <template>  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class="Header">
   <NavBar />
   <Header />
