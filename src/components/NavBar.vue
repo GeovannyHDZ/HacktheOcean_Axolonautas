@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  color: black;
+  color: white;
   text-transform: uppercase;
   overflow: hidden;
 }
@@ -63,7 +63,7 @@
         align-items: center;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
-        color: black;
+        color: white;
         padding-top: 10px;
       }
       .Donaciones{
@@ -72,10 +72,10 @@
         align-items: center;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
-        color: black;
+        color: white;
 
         padding: 10px;
-        background-color: aqua;
+        background-color: rgb(210, 145, 33);
         border-radius: 10%;
       }
 </style>
