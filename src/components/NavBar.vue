@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <nav>
+    <nav class="ContainerNavigation">
         <div class="ContainerLogo">
             <span class="Logo">Axojonautas</span>
         </div>
@@ -18,30 +18,55 @@
             <li class="parent">
                 <a class="link" href="#">Donaciones</a>
             </li>
-            
         </ul>
     </nav>
 </template>
 
 <style>
-.ContainerLogo {
+.ContainerNavigation {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #222;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
-  color: white;
+  color: black;
   text-transform: uppercase;
   overflow: hidden;
-  width: 600px;
 }
-.logoWrapper {
+.ContainerLogo {
     display: flex;
 }
-.logo {
+.Logo {
       padding-left: 4px;
-      color: #ea4f4c;
     }
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+    li {
+      opacity: 1;
+      list-style-type: none;
+      color: black;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .parent {
+      padding: 0 10px;
+      cursor: pointer;
+    }
+      .link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        color: black;
+
+        &:hover {
+          color: #ea4f4c;
+        }
+      }
 </style>
