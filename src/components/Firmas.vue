@@ -5,18 +5,24 @@
     <h1 class="Title">Firma esta petición para apoyar</h1>
     <h3 class="Subtitle">Problemática: Contaminación de los cuerpos de agua de México provoca por las empresas refresqueras</h3>
     <form action="" class="w3-container">
-        <p>
+        <div class="w3-row-padding">
+        
+        <div class="w3-half">
+        
             <input type="text" placeholder="Nombre" class="w3-input">
-        </p>
-        <p>
+        
+        
             <input type="text" placeholder="Apellido" class="w3-input">
-        </p>
-        <p>
+        
+        
             <input type="email" placeholder="Mail" class="w3-input">
-        </p>
-        <p>
+        
+        </div>
+        
+        <div class="w3-half">
+        
             <input type="tel" placeholder="Celular" class="w3-input">
-        </p>
+        
         <select name="Paises" id="paises" class="w3-select">
             <option disabled selected>select country</option>
             <option value="AF">Afghanistan</option>
@@ -272,7 +278,14 @@
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
         </select>
+        <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+        </div>
+        </div>
      </form>
-
+    
 
 </template>
+
+<style>
+
+</style>
