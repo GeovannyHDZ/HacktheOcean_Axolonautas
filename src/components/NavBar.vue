@@ -46,7 +46,6 @@
 }
 
     li {
-      opacity: 1;
       list-style-type: none;
       color: black;
       text-decoration: none;
