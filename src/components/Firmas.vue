@@ -278,7 +278,7 @@
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
         </select>
-        <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+        <button class="">Send</button>
         </div>
         </div>
      </form>
@@ -294,4 +294,13 @@
 .Subtitle{
     text-align: center;
 }
+
+.w3-container{padding:0.01em 16px}
+.w3-container:after,.w3-container:before{content:"";display:table;clear:both}
+.w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
+.w3-half{float:left;width:100%}
+.w3-half{width:49.99999%}
+.w3-half{padding:0 8px}
+.w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 </style>
