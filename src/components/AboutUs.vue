@@ -1,13 +1,10 @@
-<script>
-export default {
-    
-}
-</script>
+<script></script>
 
 <template>
+  <!--Sobre nosotros-->
     <div class="about_us"><!--Contenedor-->
         <div class="images"> <!--Imagen-->
-                <img src="../assets/Logos/photos.png" alt="">
+                <img src="../assets/Logos/photos.png" alt="photos">
         </div>
         <div class="info"> <!--Información que contiene Texto, imagenes y botones-->
             <div class="texto"> <!--Texto-->
@@ -23,7 +20,7 @@ export default {
 </template>
 
 <style>
-about_us{
+.about_us{
     height: 400px;
     width: 100%;
     display:grid;
