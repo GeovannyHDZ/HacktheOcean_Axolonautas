@@ -2,9 +2,7 @@
 
 <template>
     <nav class="ContainerNavigation">
-        <div class="ContainerLogo">
             <img src="../assets/Logos/MicrosoftTeams-image.png" alt="">
-        </div>
         <ul class="navigation">
             <li class="parent">
                 <a class="link" href="#">MAPA</a>
@@ -27,18 +25,19 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   color: white;
   text-transform: uppercase;
   overflow: hidden;
 }
-.ContainerLogo {
-    display: flex;
+
+nav img{
+  height: 200px;
+  width: auto;
+  justify-self: start;
+  margin-left: 20px;
 }
-.Logo {
-      padding-left: 4px;
-    }
 
 .navigation {
     display: flex;
