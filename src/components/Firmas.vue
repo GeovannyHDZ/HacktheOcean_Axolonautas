@@ -286,7 +286,7 @@
 
 </template>
 
-<style>
+<style scoped>
 .Title{
     color: rgb(210, 145, 33);
     text-align: center;
