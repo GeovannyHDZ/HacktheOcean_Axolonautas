@@ -21,11 +21,9 @@
 
 <style scoped>
 .about_us{
-    height: 400px;
     width: 100%;
     display:grid;
     grid-template-columns: 0.5fr 0.5fr;
-    margin: auto;
     overflow: hidden;
     box-sizing: border-box;
     background-image:url("../assets/Logos/coran.png");
