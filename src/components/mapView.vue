@@ -426,20 +426,16 @@ foreignObject div{
     background-color: rgba(150,150,150,0.5);
     border-radius: 12px;
     text-align: left;
-    width: 400px;
+    
 }
 .leftlong{
     width: 330px;
     height: 350px;
 }
-.leftlong div{
-    width: 330px;
-}
+
 .leftlonglong{
     width: 330px;
     height: 400px;
 }
-.leftlonglong div{
-    width: 330px;
-}
+
 </style>
