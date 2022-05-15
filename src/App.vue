@@ -16,9 +16,6 @@ import MapView from './components/mapView.vue';
 <AboutUs />
 <ProgressBar />
 <Firmas />
-
- 
-  
 </template>
 
 <style>
