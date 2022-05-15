@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .about_us{
     height: 400px;
     width: 100%;
