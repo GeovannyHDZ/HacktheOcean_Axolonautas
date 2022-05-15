@@ -4,7 +4,7 @@
   <!--Sobre nosotros-->
     <div class="about_us"><!--Contenedor-->
         <div class="images"> <!--Imagen-->
-                <img src="../assets/Logos/photos.png" alt="photos">
+                <img src="../assets/Logos/RecycleProduct.svg" alt="">
         </div>
         <div class="info"> <!--Información que contiene Texto, imagenes y botones-->
             <div class="texto"> <!--Texto-->
