@@ -3,7 +3,7 @@
 <template>
     <nav class="ContainerNavigation">
         <div class="ContainerLogo">
-            <span class="Logo">Axojonautas</span>
+            <img src="../assets/Logos/MicrosoftTeams-image.png" alt="">
         </div>
         <ul class="navigation">
             <li class="parent">
