@@ -2,6 +2,7 @@
 import NavBar from './components/NavBar.vue'
 import Header from './components/Header.vue'
 import Firmas from './components/Firmas.vue'
+import ProgressBar from './components/ProgressBar.vue'
 </script>
 
 <template>  
@@ -10,6 +11,7 @@ import Firmas from './components/Firmas.vue'
   <NavBar />
   <Header />
 </div>
+ <ProgressBar />
   <Firmas />
   
 </template>
