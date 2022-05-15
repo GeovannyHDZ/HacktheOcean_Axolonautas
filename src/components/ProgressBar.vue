@@ -1,81 +1,31 @@
 <script>
-const progress = document.getElementById("progress");
-const stepCircles = document.querySelectorAll(".circle");
-let currentActive = 1;
 
-//NOTE CHANGE HERE TO 1-4
-//1=25%
-//2=50%
-//3=75%
-//4=100%
-update(2);
-
-function update(currentActive) {
-  stepCircles.forEach((circle, i) => {
-    if (i < currentActive) {
-      circle.classList.add("active");
-    } else {
-      circle.classList.remove("active");
-    }
-  });
-
-  const activeCircles = document.querySelectorAll(".active");
-  progress.style.width =
-    ((activeCircles.length - 1) / (stepCircles.length - 1)) * 100 + "%";
-
-  
-}
 </script>
 
 <template>
     <div class="container">
-        <div class="progress-container">
-            <div class="progress" id="progress"> 
-    </div>
-            <div class="circle active">25%</div>
-            <div class="circle">50%</div>
-            <div class="circle">75%</div>
-            <div class="circle">100%</div>
-        </div>
-    </div>
+  <div class="progress-container">
+    <div class="progress" id="progress"> </div>
+    <div class="circle active">25%</div>
+    <div class="circle">50%</div>
+    <div class="circle">75%</div>
+    <div class="circle">100%</div>
+  </div>
+</div>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
 
 :root {
   --line-border-fill: #3498db;
   --line-border-empty: #e0e0e0;
 }
 
-
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  background: #F3F4F6;
-  font-family: "Rubik", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-}
-
 .container {
   margin-top: 15px;
   text-align: center;
+  margin-left: 40px;
 }
 
 .progress-container::before {
@@ -152,4 +102,7 @@ body {
   background-color: var(--line-border-empty);
   cursor: not-allowed;
 }
+
+
+
 </style>
