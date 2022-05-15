@@ -1,8 +1,10 @@
 <script></script>
 <template>
 <div class="ContainerHeadline">
-    <header>Work with an Amazing tool</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ex consectetur, tincidunt purus sed, auctor dui. Maecenas vitae tellus nec massa convallis eleifend. Aenean vel consequat nulla. Morbi vestibulum dolor ut venenatis tristique. </p>
+    <header>¿Alguna vez te has preguntado cuánto plástico hay en nuestros océanos?</header>
+    <p>Nuestra asociación lucha por un mundo mejor, apoya y firma si estás de acuerdo en que se les
+aumenten los impuestos a las empress internacionales por la venta
+de sus bienes en tierras mexicanas.</p>
     <a href="#" class="Firmar">Firmar</a>
     <br><br>
     <span class="FindUs">Find us on</span>
