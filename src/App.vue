@@ -6,8 +6,7 @@ import ProgressBar from './components/ProgressBar.vue'
 import AboutUs from './components/AboutUs.vue';
 </script>
 
-<template>  
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<template> 
 <div class="Header">
   <NavBar />
   <Header />
@@ -22,6 +21,7 @@ import AboutUs from './components/AboutUs.vue';
 </template>
 
 <style>
+body{margin:0}
 .Header{
   background-image: url(../src/assets/Logos/Portada.svg);
   background-position: 30%;
