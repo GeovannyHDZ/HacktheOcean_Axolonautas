@@ -4,6 +4,7 @@ import Header from './components/Header.vue'
 import Firmas from './components/Firmas.vue'
 import ProgressBar from './components/ProgressBar.vue'
 import AboutUs from './components/AboutUs.vue';
+import MapView from './components/mapView.vue';
 </script>
 
 <template> 
@@ -11,7 +12,7 @@ import AboutUs from './components/AboutUs.vue';
   <NavBar />
   <Header />
 </div>
-
+<MapView />
 <AboutUs />
 <ProgressBar />
 <Firmas />
