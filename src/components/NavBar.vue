@@ -22,7 +22,7 @@
     </nav>
 </template>
 
-<style>
+<style scoped>
 .ContainerNavigation {
   position: relative;
   display: flex;
