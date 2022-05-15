@@ -11,8 +11,11 @@ import ProgressBar from './components/ProgressBar.vue'
   <NavBar />
   <Header />
 </div>
- <ProgressBar />
-  <Firmas />
+<div>
+<ProgressBar />
+<Firmas />
+</div>
+ 
   
 </template>
 
