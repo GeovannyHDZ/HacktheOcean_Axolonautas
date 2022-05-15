@@ -275,7 +275,9 @@
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
             </select>
-            <button class="">Send</button>
+            <div class="donar-btn"> <!--Boton-->
+                <button>Firmar</button>
+            </div>
         </div>
 
         </div>
@@ -303,5 +305,19 @@
 .w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
 .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 
+.donar-btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donar-btn button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 </style>
