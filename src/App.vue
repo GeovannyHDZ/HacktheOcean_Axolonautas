@@ -12,11 +12,11 @@ import AboutUs from './components/AboutUs.vue';
   <NavBar />
   <Header />
 </div>
-<div>
-  <AboutUs />
+
+<AboutUs />
 <ProgressBar />
 <Firmas />
-</div>
+
  
   
 </template>
