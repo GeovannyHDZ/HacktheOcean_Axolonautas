@@ -36,7 +36,7 @@
 
 </template>
 
-<style>
+<style scoped>
 .ContainerHeadline{
     display: grid;
     place-items: center;
